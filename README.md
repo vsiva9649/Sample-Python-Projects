@@ -11,4 +11,4 @@ This repository contains sample Python projects for learning and practice.
 ## How to Run
 1. Clone repo:
    ```bash
-   git clone https://github.com/USERNAME/Sample-Python-Projects.git
+   git clone https://github.com/vsiva9649/Sample-Python-Projects.git
