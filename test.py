@@ -129,7 +129,7 @@ print("Complex:", complex_num, type(complex_num))
 num_str = "100"
 print("Casting str to int:", int(num_str))
 print("Casting int to str:", str(123))
-print("Casting string to list:", list("abc","hello"))
+print("Casting string to list:", list("abc"))
 
 
 # -------------------------------
@@ -217,3 +217,44 @@ print("isspace:", "   ".isspace())         # True → only spaces
 # Pads the number with zeros on the left, until string becomes length 5
 print("zfill:", "42".zfill(5))             # Output: 00042
 
+
+"""
+| Category        | Types                          |
+|-----------------|--------------------------------|
+| Text Type       | str                            |
+| Numeric Types   | int, float, complex            |
+| Sequence Types  | list, tuple, range             |
+| Mapping Type    | dict                           |
+| Set Types       | set, frozenset                 | doubts in {frozenset}
+| Boolean Type    | bool                           |
+| Binary Types    | bytes, bytearray, memoryview   | doubts in {bytearray, memoryview}
+| None Type       | NoneType                       |
+"""
+
+# Escape Characters Examples in Python
+# ===== Quotes =====
+print("Single Quote: It\'s a nice day")
+print("Double Quote: I am learning \"Python\" now")
+# ===== Backslash =====
+print("Backslash: This is a backslash \\")
+# ===== New line =====
+print("New Line:\nLine1\nLine2\nLine3")
+# ===== Tab =====
+print("Tab Space:\tHello\tWorld")
+# ===== Carriage Return =====
+print("Carriage Return: Hello\rWorld")
+# ===== Backspace =====
+print("Backspace: Hello\bWorld")
+# ===== Form Feed =====
+print("Form Feed: Hello\fWorld")
+# ===== Hexadecimal values =====
+print("Hexadecimal: \x48\x49")   # HI
+# ===== Octal values =====
+print("Octal: \110\111")         # HI
+# ===== Unicode characters =====
+print("Unicode A: \u0041")       # A
+print("Unicode Smiley: \u263A")  # ☺
+# ===== Emoji using Unicode =====
+print("Emoji Heart: \U0001F49C")  # 💜
+print("Emoji Fire: \U0001F525")   # 🔥
+print("Emoji Face: \U0001F600")   # 😀
